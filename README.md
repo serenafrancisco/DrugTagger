@@ -1,5 +1,5 @@
 # DrugTagger
-Jupyter notebook for fast annotation of small molecules from the DrugBank database.
+Jupyter notebook for fast annotation of multiple small molecules from the DrugBank database.
 
 ## Description
 DrugTagger.ipynb allows to isolate information of interest from the DrugBank database (Name, Average Mass, Description, SMILES, etc) given a list of small molecules IDs (e.g., DB00001, DB00002, ...).
