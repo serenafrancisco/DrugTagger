@@ -110,7 +110,7 @@ def save_to_tsv(data, tsv_file):
             tsvfile.write(f"{entry['Cluster']}\t{entry['Drug_ID']}\t{entry['Affinity_1']}\t{entry['Name']}\t{entry['Mass']}\t{entry['SMILES']}\t{entry['Drug Class']}\n")
 
 # Prompt the user for input
-xml_file_path = "datasets/drugbank_5-1-12.xml"
+xml_file_path = "./drugbank_5-1-12.xml"
 
 # Get the input TXT file path from the user
 input_file_path = input("Enter the path to the input TXT file: ")
